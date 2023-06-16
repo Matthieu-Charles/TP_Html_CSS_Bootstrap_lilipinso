@@ -1,0 +1,48 @@
+/*Import des polices*/
+
+@font-face {
+	font-family: 'futura light';
+	src: url("/fonts/futura-light-webfont.woff") format("woff"),
+	url("/fonts/futura-light-webfont.woff2") format("woff2")
+}
+@font-face {
+	font-family: 'futura book';
+	src: url("/fonts/futura_book_font-webfont.woff") format("woff"),
+	url("/fonts/futura_book_font-webfont.woff2") format("woff"),
+}
+@font-face {
+	font-family: 'futura medium';
+	src: url("/fonts/futura_medium_bt-webfont.woff") format("woff"),
+	url("/fonts/futura_medium_bt-webfont.woff2") format("woff2")
+}
+@font-face {
+	font-family: 'nimbus regular';
+	src: url("/fonts/nimbus-sans-l.regular-webfont.woff") format("woff"),
+	url("/fonts/nimbus-sans-l.regular-webfont.woff") format("woff2")
+}
+@font-face {
+	font-family: 'nimbus romno';
+	src: url("/fonts/nimbusromno9l-regita-webfont.woff") format("woff"),
+	url("/fonts/nimbusromno9l-regita-webfont.woff2") format("woff2")
+}
+@font-face {
+	font-family: 'sofia light';
+	src: url("/fonts/sofia-pro-light-webfont.woff") format("woff"),
+	url("/fonts/sofia-pro-light-webfont.woff2") format("woff2")
+}
+@font-face {
+	font-family: 'sofia regular';
+	src: url("/fonts/sofia_pro_regular-webfont.woff") format("woff"),
+	url("/fonts/sofia_pro_regular-webfont.woff2") format("woff2")
+}
+@font-face {
+	font-family: 'sofia semibold';
+	src: url("/fonts/sofia_pro_semibold-webfont.woff") format("woff"),
+	url("/fonts/sofia_pro_semibold-webfont.woff2") format("woff2")
+}
+body {
+	font-family: 'sofia semibold', sans-serif;
+}
+p.title-menu:hover{
+    text-decoration: underline;
+}
