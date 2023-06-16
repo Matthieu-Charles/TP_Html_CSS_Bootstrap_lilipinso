@@ -1,0 +1,185 @@
+// @utilisation d'une mixin de bootstrap
+@include media-breakpoint-up(md){
+
+
+
+    #follow-us{
+
+        margin: 3em 0;
+
+
+        h2{
+            position: relative;
+            z-index: 1;
+            padding-bottom: 0.7em;
+            margin-bottom: 1.3em;
+            font-weight: 400;
+            font-style: italic;
+
+            &:before{
+                content: "";
+                position: absolute;
+                left: 46%;
+                bottom: 0;
+                width: 8%;
+                border-bottom: 2px solid #000000;
+            }
+        }
+
+
+        .cards{
+            width: 90%;
+            margin: 0 auto;
+
+            .flower-wall{
+                background: url("../images/flower-wall.jpg");
+            }
+            .flower-card{
+                background: url("../images/flower-card.jpg");
+            }
+            .bird-wall{
+                background: url("../images/bird-wall.jpg");
+            }
+            .bird-love{
+                background: url("../images/bird-love.jpg");
+            }
+            .artists{
+                background: url("../images/talented-artists.jpg");
+            }
+    
+            .col{
+                width: 20%;
+                height: 210px;
+                //background: url("../images/flower-wall.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                overflow: hidden;
+                padding: 0;
+                // height: 450px;
+                
+                &:not(:last-child){
+                    margin-right: 1em;
+                }
+    
+            }
+
+        }
+
+
+    }
+
+
+
+    footer{
+
+        .footer-top{
+
+            #info{
+                width: 90%;
+                margin: 0 auto;
+
+                .col-md-4{
+
+                    margin-top: 1em;
+                    margin-bottom: 3em;
+
+                    
+                    h3{
+                        font-size: 1.3em;
+                        margin-top: 0.5em;
+                    }
+
+                    &.mid{
+                        border-left: 2px solid #f4f4f4;
+                        border-right: 2px solid #f4f4f4;
+                    }
+                }
+
+            }
+
+
+        }
+
+        .footer-bottom{
+            background-color: black;
+            color: white;
+
+            #bottom{
+
+                width: 70%;
+                margin: 0 auto;
+
+                .col-md-3{
+                    margin: 5em 0;
+                    h4{
+                        margin-bottom: 1em;
+                        font-size: 1.3em;
+                    }
+                    ul>li:not(:last-child){
+                        margin-bottom: 0.5em;
+                    }
+                }
+    
+                ul{
+                    list-style: none;
+                    padding: 0;
+                    li{
+                        a{
+                            text-decoration: none;
+                            color: white;
+                            font-weight: 300;
+                        }
+                    }
+                    
+                }
+    
+                p{
+                    font-weight: 100;
+                    font-size: 0.7rem;
+                }
+    
+                form{
+                    input{
+                        display: block;
+                        width: 100%;
+                        border: none;
+                        font-size: 0.7em;
+                        padding: 1em 1.5em;
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                    button{
+                        font-size: 0.7rem;
+                        font-weight: 700;
+                        padding: 0.6em 1.8em;
+                        margin-top: 1.3em;
+                        border: none;
+                    }
+                }
+    
+                .credits{
+                    border-top: 1px solid #101010;
+                    .col-md-6{
+                        margin-top: 1em;
+                        p{
+                            font-weight: 500;
+                        }
+                        
+                        ul{
+        
+                            li:not(:first-child){
+                                margin-left: 1em;
+                            }
+                        }
+                    }
+    
+                }
+
+            }
+            
+        }
+    }
+
+}
