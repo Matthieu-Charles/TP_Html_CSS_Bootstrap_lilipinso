@@ -40,9 +40,61 @@
 	src: url("/fonts/sofia_pro_semibold-webfont.woff") format("woff"),
 	url("/fonts/sofia_pro_semibold-webfont.woff2") format("woff2")
 }
-body {
+
+/*Css global*/
+
+body{
 	font-family: 'sofia semibold', sans-serif;
 }
+p.reset{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+p.title-menu{
+    border: 3px solid transparent;
+}
 p.title-menu:hover{
-    text-decoration: underline;
+    border-bottom: 3px solid black;
+}
+img.img-reset{
+    max-height: 50vh;
+    object-fit: cover;
+    max-width: 100%;
+}
+img.img-section{
+    max-height: none;
+    object-fit: fill;
+}
+.carre-gris{
+    background-color: rgb(185, 180, 180);
+}
+p.title-menu-2{
+    border: 3px solid transparent;
+}
+.nav2-titles>li{
+    border: 3px solid transparent;
+}
+.nav2-titles>li:hover{
+    border-top: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+.nav-2{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.card{
+    max-width: 20%;;
+}
+p.italic{
+    font-family: "nimbus romno";
+}
+img.bb{
+    max-width: none;
+    max-height: none;
+}
+.h3-weekly{
+    font-family: 'nimbus romno';
+}
+.h2-weekly{
+    font-size: small;
 }
