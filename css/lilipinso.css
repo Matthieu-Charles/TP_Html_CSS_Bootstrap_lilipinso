@@ -1,0 +1,129 @@
+#follow-us {
+  margin: 3em 0;
+}
+#follow-us h2 {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0.7em;
+  margin-bottom: 1.3em;
+  font-weight: 400;
+  font-style: italic;
+}
+#follow-us h2:before {
+  content: "";
+  position: absolute;
+  left: 46%;
+  bottom: 0;
+  width: 8%;
+  border-bottom: 2px solid #000000;
+}
+#follow-us .cards {
+  width: 90%;
+  margin: 0 auto;
+}
+#follow-us .cards .flower-wall {
+  background: url("../images/flower-wall.jpg");
+}
+#follow-us .cards .flower-card {
+  background: url("../images/flower-card.jpg");
+}
+#follow-us .cards .bird-wall {
+  background: url("../images/bird-wall.jpg");
+}
+#follow-us .cards .bird-love {
+  background: url("../images/bird-love.jpg");
+}
+#follow-us .cards .artists {
+  background: url("../images/talented-artists.jpg");
+}
+#follow-us .cards .col {
+  width: 20%;
+  height: 210px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 0;
+}
+#follow-us .cards .col:not(:last-child) {
+  margin-right: 1em;
+}
+
+footer .footer-top #info {
+  width: 90%;
+  margin: 0 auto;
+}
+footer .footer-top #info .col-md-4 {
+  margin-top: 1em;
+  margin-bottom: 3em;
+}
+footer .footer-top #info .col-md-4 h3 {
+  font-size: 1.3em;
+  margin-top: 0.5em;
+}
+footer .footer-top #info .col-md-4.mid {
+  border-left: 2px solid #f4f4f4;
+  border-right: 2px solid #f4f4f4;
+}
+footer .footer-bottom {
+  background-color: black;
+  color: white;
+}
+footer .footer-bottom #bottom {
+  width: 70%;
+  margin: 0 auto;
+}
+footer .footer-bottom #bottom .col-md-3 {
+  margin: 5em 0;
+}
+footer .footer-bottom #bottom .col-md-3 h4 {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+}
+footer .footer-bottom #bottom .col-md-3 ul > li:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+footer .footer-bottom #bottom ul {
+  list-style: none;
+  padding: 0;
+}
+footer .footer-bottom #bottom ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+footer .footer-bottom #bottom p {
+  font-weight: 100;
+  font-size: 0.7rem;
+}
+footer .footer-bottom #bottom form input {
+  display: block;
+  width: 100%;
+  border: none;
+  font-size: 0.7em;
+  padding: 1em 1.5em;
+}
+footer .footer-bottom #bottom form input:focus {
+  outline: none;
+}
+footer .footer-bottom #bottom form button {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.6em 1.8em;
+  margin-top: 1.3em;
+  border: none;
+}
+footer .footer-bottom #bottom .credits {
+  border-top: 1px solid #101010;
+}
+footer .footer-bottom #bottom .credits .col-md-6 {
+  margin-top: 1em;
+}
+footer .footer-bottom #bottom .credits .col-md-6 p {
+  font-weight: 500;
+}
+footer .footer-bottom #bottom .credits .col-md-6 ul li:not(:first-child) {
+  margin-left: 1em;
+}
+
+/*# sourceMappingURL=lilipinso.css.map */
